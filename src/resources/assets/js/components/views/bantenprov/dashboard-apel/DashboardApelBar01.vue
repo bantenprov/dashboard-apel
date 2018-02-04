@@ -1,19 +1,23 @@
 <template>
-  <div style="width: 100%; height: 400px;">
+  <div style="width: 100%; height: 600px;">
     <IEcharts :option="bar" :loading="loading" :resizable="true"></IEcharts>
   </div>
 </template>
 
 <script>
+import IEcharts from 'vue-echarts-v3/src/full.js';
+
 export default {
+  components: {
+    IEcharts
+  },
   data () {
     return {
       loading: false,
       bar: {
         title: {
-          show: true,
-          text: '',
-          x: 'center',
+          text: 'Absensi Apel',
+          subtext: '01-01-2018',
           textStyle: {
             fontSize: 16,
             fontWeight: 'normal',
@@ -22,160 +26,85 @@ export default {
           }
         },
         tooltip: {
-          show: true
-        },
-        toolbox: {
-          show : true,
-          orient : 'horizontal',
-          bottom: 0,
-          x: 'center',
-          feature : {
-            dataView: {
-              show: true,
-              lang: ['Data view', 'Cancel', ''],
-              readOnly: true,
-              backgroundColor: 'rgba(0,0,0,.65)',
-              textareaColor: 'rgba(0,0,0,.5)',
-              textareaBorderColor: 'rgba(0,0,0,.5)',
-              textColor: '#fff',
-              buttonColor: '#ddd',
-              buttonTextColor: '#333'
-            },
-            saveAsImage: {
-              show: true,
-              backgroundColor: 'transparent',
-              excludeComponents: ['toolbox', 'visualMap']
-            }
-          },
-          iconStyle: {
-            borderWidth: 1,
-            borderType: 'solid',
-            borderColor: '#fff'
+          trigger: 'axis',
+          axisPointer: {
+            type: 'shadow'
           }
+        },
+        legend: {
+          data: ['Wajib hadir', 'Peserta']
+        },
+        grid: {
+          left: '3%',
+          right: '4%',
+          bottom: '3%',
+          containLabel: true
         },
         xAxis: {
-          show: true,
-          data: [],
-          axisLabel: {
-            show: true,
-            fontSize: 10,
-            fontWeight: 'normal',
-            fontStyle: 'normal',
-            color: '#fff'
-          },
-          axisLine: {
-            show: true,
-            lineStyle: {
-              width: 1,
-              type: 'solid',
-              color: '#fff'
-            }
-          },
-          axisTick: {
-            show: true
-          },
-          splitArea: {
-            show: true
-          },
-          splitLine: {
-            show: true,
-            lineStyle: {
-              width: 1,
-              type: 'solid',
-              color: '#eee'
-            }
-          }
+          type: 'value',
+          boundaryGap: [0, 0.01]
         },
         yAxis: {
-          show: true,
-          axisLabel: {
-            show: true,
-            fontSize: 10,
-            fontWeight: 'normal',
-            fontStyle: 'normal',
-            color: '#fff'
-          },
-          axisLine: {
-            show: true,
-            lineStyle: {
-              width: 1,
-              type: 'solid',
-              color: '#fff'
-            }
-          },
-          axisTick: {
-            show: true
-          },
-          splitArea: {
-            show: true
-          },
-          splitLine: {
-            show: true,
-            lineStyle: {
-              width: 1,
-              type: 'solid',
-              color: '#eee'
-            }
-          }
+          type: 'category',
+          data: []
         },
-        series: [{
+        series: [
+        {
+          name: 'Wajib hadir',
           type: 'bar',
-          data: [],
-          barWidth: 30,
-          barGap: '30%',
-          cursor: 'default',
-          itemStyle: {
-            color: '#FFEB3B'
-          }
-        }],
-        label: {
-          show: true,
-          position: 'top',
-          fontSize: 10,
-          fontWeight: 'normal',
-          fontStyle: 'normal',
-          color: '#fff'
+          data: []
+        },
+        {
+          name: 'Peserta',
+          type: 'bar',
+          data: []
         }
+        ]
       }
     }
   },
   mounted: function () {
+    /*console.log(this.bar.series[0].name)
+    let data_interval = [[19325, 23438, 31000, 121594, 134141, 681807, 19325, 23438, 31000, 121594, 19325, 23438, 31000, 121594, 134141, 681807, 19325, 23438, 31000, 121594, 19325, 23438, 31000, 121594, 134141, 681807, 19325, 23438, 31000, 121594, 19325, 23438, 31000, 121594, 134141, 681807, 19325, 23438, 31000, 121594],[18203, 23489, 29034, 104970, 131744, 630230, 29034, 104970, 131744, 630230, 18203, 23489, 29034, 104970, 131744, 630230, 29034, 104970, 131744, 630230, 18203, 23489, 29034, 104970, 131744, 630230, 29034, 104970, 131744, 630230, 18203, 23489, 29034, 104970, 131744, 630230, 29034, 104970, 131744, 630230]]
+
+    let i = 0;
+    setInterval(()=>{
+
+      this.bar.series[0].data = data_interval[i];
+      console.log(this.bar.series[0].data[0])
+      i++;
+      if(i == data_interval.length)
+      {
+        i =0;
+      }
+    },4000)*/
+
     axios.get('/json/bantenprov/dashboard-apel/dashboard-apel-010.json').then(response => {
 
       let ke = 0;
 
       var res = response.data;
 
-      /**
-       * response :
-       * console.log(res)
-       *
-       * xAxis
-       * console.log(res[0].xAxis.data)
-       * console.log(Object.values(res[0].xAxis.data))
-       *
-       * series data
-       * console.log(res[0].series[0].data)
-       *
-       * region
-       * console.log(res[0].xAxis.region)
-       *
-       * length
-       * console.log(res.length);
-       */
-
-      this.bar.xAxis.data = Object.values(res[0].xAxis.data);
+      /*this.bar.xAxis.data = Object.values(res[0].xAxis.data);
       this.bar.series[0].data = res[0].series[0].data;
-      this.bar.title.text = res[0].xAxis.region + ' ' + res[0].xAxis.name + ' ' + res[0].xAxis.yyyy;
+      this.bar.title.text = res[0].xAxis.region + ' ' + res[0].xAxis.name + ' ' + res[0].xAxis.yyyy;*/
+
+      this.bar.title.subtext = res[0].time;
+      this.bar.yAxis.data = res[0].yAxis.data;
+      this.bar.series[0].data = res[0].series[0].data;
+      this.bar.series[1].data = res[0].series[1].data;
+
+      //console.log(res[0].series[1].data);
 
       // interval
       let i = 0;
 
       setInterval(() => {
 
-        this.bar.xAxis.data = Object.values(res[i].xAxis.data);
+        this.bar.title.subtext = res[i].time;
+        this.bar.yAxis.data = res[i].yAxis.data;
         this.bar.series[0].data = res[i].series[0].data;
-        this.bar.title.text = res[i].xAxis.region + ' ' + res[i].xAxis.name + ' ' + res[i].xAxis.yyyy;
+        this.bar.series[1].data = res[i].series[1].data;
 
         i++;
 
@@ -187,6 +116,7 @@ export default {
     .catch(function(error) {
       // error
     });
+
   }
 }
 </script>
