@@ -1,210 +1,192 @@
 [
   {
-    "xAxis": {
-      "type": "category",
-      "region": "Provinsi",
-      "name": "Banten",
-      "yyyy": "2012",
-      "index": "Banten-2012",
+    "time": "10-10-2018 08:00:00",
+    "yAxis": {
       "data": [
-        "Angkatan Kerja",
-        "Rasio Ketersediaan Sekolah SMP-MTs"
+        "opd-1",
+        "opd-2",
+        "opd-3",
+        "opd-4",
+        "opd-5",
+        "opd-6",
+        "opd-7",
+        "opd-8",
+        "opd-9",
+        "opd-10",
+        "opd-11",
+        "opd-12",
+        "opd-13",
+        "opd-14",
+        "opd-15"
       ]
     },
     "series": [
       {
+        "name": "Wajib Hadir",
         "data": [
-          5.59,
-          5.09        
+          16668,
+          19393,
+          5920,
+          1635,
+          25039,
+          13380,
+          16669,
+          14387,
+          23368,
+          6146,
+          21763,
+          15993,
+          21797,
+          15640,
+          10005
+        ]
+      },
+      {
+        "name": "Peserta",
+        "data": [
+          25271,
+          23985,
+          2175,
+          23986,
+          1849,
+          19744,
+          20581,
+          21735,
+          17909,
+          1909,
+          15887,
+          15155,
+          1714,
+          22633,
+          25876
         ]
       }
     ]
   },
   {
-    "xAxis": {
-      "type": "category",
-      "region": "Negara",
-      "name": "Indonesia",
-      "yyyy": "2012",
-      "index": "Indonesia-2012",
+    "time": "10-10-2018 08:05:04",
+    "yAxis": {
       "data": [
-        "Angkatan Kerja",
-        "Rasio Ketersediaan Sekolah SMP-MTs"
+        "opd-1",
+        "opd-2",
+        "opd-3",
+        "opd-4",
+        "opd-5",
+        "opd-6",
+        "opd-7",
+        "opd-8",
+        "opd-9",
+        "opd-10",
+        "opd-11",
+        "opd-12",
+        "opd-13",
+        "opd-14",
+        "opd-15"
       ]
     },
     "series": [
       {
+        "name": "Wajib Hadir",
         "data": [
-          119.85,
-          112.5
+          20271,
+          23985,
+          2175,
+          23986,
+          1849,
+          19744,
+          20581,
+          21735,
+          17909,
+          1909,
+          15887,
+          15155,
+          1714,
+          22633,
+          21876
+        ]
+      },
+      {
+        "name": "Peserta",
+        "data": [
+          21000,
+          23438,
+          23489,
+          23489,
+          23489,
+          23489,
+          23489,
+          23489,
+          23489,
+          23489,
+          23489,
+          23489,
+          23489,
+          23489,
+          23489
         ]
       }
     ]
   },
   {
-    "xAxis": {
-      "type": "category",
-      "region": "Provinsi",
-      "name": "Banten",
-      "yyyy": "2013",
-      "index": "Banten-2013",
+    "time": "10-10-2018 08:10:08",
+    "yAxis": {
       "data": [
-        "Angkatan Kerja",
-        "Rasio Ketersediaan Sekolah SMP-MTs"
+        "opd-1",
+        "opd-2",
+        "opd-3",
+        "opd-4",
+        "opd-5",
+        "opd-6",
+        "opd-7",
+        "opd-8",
+        "opd-9",
+        "opd-10",
+        "opd-11",
+        "opd-12",
+        "opd-13",
+        "opd-14",
+        "opd-15"
       ]
     },
     "series": [
       {
+        "name": "Wajib Hadir",
         "data": [
-          5.59,
-          5.09
+          20000,
+          4254,
+          1221,
+          1244,
+          23489,
+          12577,
+          21231,
+          23489,
+          12121,
+          20489,
+          2545,
+          2389,
+          2389,
+          20000,
+          857
         ]
-      }
-    ]
-  },
-  {
-    "xAxis": {
-      "type": "category",
-      "region": "Negara",
-      "name": "Indonesia",
-      "yyyy": "2013",
-      "index": "Indonesia-2013",
-      "data": [
-        "Angkatan Kerja",
-        "Rasio Ketersediaan Sekolah SMP-MTs"
-      ]
-    },
-    "series": [
+      },
       {
+        "name": "Peserta",
         "data": [
-          120.17,
-          112.76
-        ]
-      }
-    ]
-  },
-  {
-    "xAxis": {
-      "type": "category",
-      "region": "Provinsi",
-      "name": "Banten",
-      "yyyy": "2014",
-      "index": "Banten-2014",
-      "data": [
-        "Angkatan Kerja",
-        "Rasio Ketersediaan Sekolah SMP-MTs"
-      ]
-    },
-    "series": [
-      {
-        "data": [
-          5.34,
-          4.86          
-        ]
-      }
-    ]
-  },
-  {
-    "xAxis": {
-      "type": "category",
-      "region": "Negara",
-      "name": "Indonesia",
-      "yyyy": "2014",
-      "index": "Indonesia-2014",
-      "data": [
-        "Angkatan Kerja",
-        "Rasio Ketersediaan Sekolah SMP-MTs"
-      ]
-    },
-    "series": [
-      {
-        "data": [
-          121.87,
-          114.63
-        ]
-      }
-    ]
-  },
-  {
-    "xAxis": {
-      "type": "category",
-      "region": "Provinsi",
-      "name": "Banten",
-      "yyyy": "2015",
-      "index": "Banten-2015",
-      "data": [
-        "Angkatan Kerja",
-        "Rasio Ketersediaan Sekolah SMP-MTs"
-      ]
-    },
-    "series": [
-      {
-        "data": [
-          5.34,
-          4.86          
-        ]
-      }
-    ]
-  },
-  {
-    "xAxis": {
-      "type": "category",
-      "region": "Negara",
-      "name": "Indonesia",
-      "yyyy": "2015",
-      "index": "Indonesia-2015",
-      "data": [
-        "Angkatan Kerja",
-        "Rasio Ketersediaan Sekolah SMP-MTs"
-      ]
-    },
-    "series": [
-      {
-        "data": [
-          121.87,
-          114.63
-        ]
-      }
-    ]
-  },
-  {
-    "xAxis": {
-      "type": "category",
-      "region": "Provinsi",
-      "name": "Banten",
-      "yyyy": "2016",
-      "index": "Banten-2016",
-      "data": [
-        "Angkatan Kerja",
-        "Rasio Ketersediaan Sekolah SMP-MTs"
-      ]
-    },
-    "series": [
-      {
-        "data": [
-          5.59,
-          5.09
-        ]
-      }
-    ]
-  },
-  {
-    "xAxis": {
-      "type": "category",
-      "region": "Negara",
-      "name": "Indonesia",
-      "yyyy": "2016",
-      "index": "Indonesia-2016",
-      "data": [
-        "Angkatan Kerja",
-        "Rasio Ketersediaan Sekolah SMP-MTs"
-      ]
-    },
-    "series": [
-      {
-        "data": [
-          125.44,
-          118.41
+          22200,
+          23438,
+          23489,
+          23489,
+          23489,
+          23489,
+          23489,
+          23489,
+          23489,
+          23489,
+          23489,
+          23489,
+          23489,
+          23489,
+          23489
         ]
       }
     ]
