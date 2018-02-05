@@ -41,6 +41,13 @@ $ git clone https://github.com/bantenprov/dashboard-apel.git
 
 ```
 
+#### Untuk publish component vue :
+
+```bash
+$ php artisan vendor:publish --tag=dashboard-apel-assets
+$ php artisan vendor:publish --tag=dashboard-apel-public
+```
+
 #### Tambahkan route di dalam route : `resources/assets/js/routes.js` :
 
 ```javascript
@@ -163,11 +170,3 @@ Vue.component('dashboard-apel-pie-02', DashboardApelPie02);
 import DashboardApelPie03 from './components/views/bantenprov/dashboard-apel/DashboardApelPie03.vue';
 Vue.component('dashboard-apel-pie-03', DashboardApelPie03);
 ```
-
-#### Untuk publish component vue :
-
-```bash
-$ php artisan vendor:publish --tag=dashboard-apel-assets
-$ php artisan vendor:publish --tag=dashboard-apel-public
-```
-

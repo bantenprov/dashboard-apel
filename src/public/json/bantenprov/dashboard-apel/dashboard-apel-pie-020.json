@@ -4,14 +4,19 @@
       "type": "category",
       "region": "Provinsi",
       "name": "Banten",
-      "yyyy": "2012",
-      "index": "Banten-2012"
+      "yyyy": "2017",
+      "mm": "11",
+      "dd": "17",
+      "index": "apel-2017-11-17"
     },
     "series": [
       {
         "data": [
-          {"value":5.18,"name":"Angkatan Kerja"},
-          {"value":4.66,"name":"Rasio Ketersediaan Sekolah SMP-MTs"}
+          {"name":"Peserta", "value":"2017-10-17"},
+          {"name":"Peserta", "value":"2017-10-17"},
+          {"name":"Peserta", "value":"2017-11-17"},
+          {"name":"Peserta", "value":"2018-12-17"},
+          {"name":"Peserta", "value":"2018-01-17"}
         ]
       }
     ]
@@ -21,14 +26,16 @@
       "type": "category",
       "region": "Provinsi",
       "name": "Banten",
-      "yyyy": "2013",
-      "index": "Banten-2013"
+      "yyyy": "2017",
+      "mm": "12",
+      "dd": "17",
+      "index": "apel-2017-12-17"
     },
     "series": [
       {
         "data": [
-          {"value":5.18,"name":"Angkatan Kerja"},
-          {"value":4.69,"name":"Rasio Ketersediaan Sekolah SMP-MTs"}
+          {"value":5.18,"name":"Wajib hadir"},
+          {"value":4.66,"name":"Peserta"}
         ]
       }
     ]
@@ -38,14 +45,16 @@
       "type": "category",
       "region": "Provinsi",
       "name": "Banten",
-      "yyyy": "2014",
-      "index": "Banten-2014"
+      "yyyy": "2018",
+      "mm": "01",
+      "dd": "17",
+      "index": "apel-2018-01-17"
     },
     "series": [
       {
         "data": [
-          {"value":5.34,"name":"Angkatan Kerja"},
-          {"value":4.86,"name":"Rasio Ketersediaan Sekolah SMP-MTs"}
+          {"value":5.18,"name":"Wajib hadir"},
+          {"value":4.66,"name":"Peserta"}
         ]
       }
     ]
@@ -55,116 +64,16 @@
       "type": "category",
       "region": "Provinsi",
       "name": "Banten",
-      "yyyy": "2015",
-      "index": "Banten-2015"
+      "yyyy": "2018",
+      "mm": "02",
+      "dd": "17",
+      "index": "apel-2018-02-17"
     },
     "series": [
       {
         "data": [
-          {"value":5.33,"name":"Angkatan Kerja"},
-          {"value":4.83,"name":"Rasio Ketersediaan Sekolah SMP-MTs"}
-        ]
-      }
-    ]
-  },
-  {
-    "xAxis": {
-      "type": "category",
-      "region": "Provinsi",
-      "name": "Banten",
-      "yyyy": "2016",
-      "index": "Banten-2016"
-    },
-    "series": [
-      {
-        "data": [
-          {"value":5.59,"name":"Angkatan Kerja"},
-          {"value":5.09,"name":"Rasio Ketersediaan Sekolah SMP-MTs"}
-        ]
-      }
-    ]
-  },
-  {
-    "xAxis": {
-      "type": "category",
-      "region": "Negara",
-      "name": "Indonesia",
-      "yyyy": "2012",
-      "index": "Indonesia-2012"
-    },
-    "series": [
-      {
-        "data": [
-          {"value":119.85,"name":"Angkatan Kerja"},
-          {"value":112.5,"name":"Rasio Ketersediaan Sekolah SMP-MTs"}
-        ]
-      }
-    ]
-  },
-  {
-    "xAxis": {
-      "type": "category",
-      "region": "Negara",
-      "name": "Indonesia",
-      "yyyy": "2013",
-      "index": "Indonesia-2013"
-    },
-    "series": [
-      {
-        "data": [
-          {"value":120.17,"name":"Angkatan Kerja"},
-          {"value":112.76,"name":"Rasio Ketersediaan Sekolah SMP-MTs"}
-        ]
-      }
-    ]
-  },
-  {
-    "xAxis": {
-      "type": "category",
-      "region": "Negara",
-      "name": "Indonesia",
-      "yyyy": "2014",
-      "index": "Indonesia-2014"
-    },
-    "series": [
-      {
-        "data": [
-          {"value":121.87,"name":"Angkatan Kerja"},
-          {"value":114.63,"name":"Rasio Ketersediaan Sekolah SMP-MTs"}
-        ]
-      }
-    ]
-  },
-  {
-    "xAxis": {
-      "type": "category",
-      "region": "Negara",
-      "name": "Indonesia",
-      "yyyy": "2015",
-      "index": "Indonesia-2015"
-    },
-    "series": [
-      {
-        "data": [
-          {"value":122.38,"name":"Angkatan Kerja"},
-          {"value":114.82,"name":"Rasio Ketersediaan Sekolah SMP-MTs"}
-        ]
-      }
-    ]
-  },
-  {
-    "xAxis": {
-      "type": "category",
-      "region": "Negara",
-      "name": "Indonesia",
-      "yyyy": "2016",
-      "index": "Indonesia-2016"
-    },
-    "series": [
-      {
-        "data": [
-          {"value":125.44,"name":"Angkatan Kerja"},
-          {"value":118.41,"name":"Rasio Ketersediaan Sekolah SMP-MTs"}
+          {"value":5.18,"name":"Wajib hadir"},
+          {"value":4.66,"name":"Peserta"}
         ]
       }
     ]
