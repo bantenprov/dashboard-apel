@@ -3,6 +3,12 @@
 [![Join the chat at https://gitter.im/dashboard-apel/Lobby](https://badges.gitter.im/dashboard-apel/Lobby.svg)](https://gitter.im/dashboard-apel/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/bantenprov/dashboard-apel/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/bantenprov/dashboard-apel/?branch=master)
 [![Build Status](https://scrutinizer-ci.com/g/bantenprov/dashboard-apel/badges/build.png?b=master)](https://scrutinizer-ci.com/g/bantenprov/dashboard-apel/build-status/master)
+[![Latest Stable Version](https://poser.pugx.org/bantenprov/dashboard-apel/v/stable)](https://packagist.org/packages/bantenprov/dashboard-apel)
+[![Total Downloads](https://poser.pugx.org/bantenprov/dashboard-apel/downloads)](https://packagist.org/packages/bantenprov/dashboard-apel)
+[![Latest Unstable Version](https://poser.pugx.org/bantenprov/dashboard-apel/v/unstable)](https://packagist.org/packages/bantenprov/dashboard-apel)
+[![License](https://poser.pugx.org/bantenprov/dashboard-apel/license)](https://packagist.org/packages/bantenprov/dashboard-apel)
+[![Monthly Downloads](https://poser.pugx.org/bantenprov/dashboard-apel/d/monthly)](https://packagist.org/packages/bantenprov/dashboard-apel)
+[![Daily Downloads](https://poser.pugx.org/bantenprov/dashboard-apel/d/daily)](https://packagist.org/packages/bantenprov/dashboard-apel)
 
 Dashboard Apel Pagi
 

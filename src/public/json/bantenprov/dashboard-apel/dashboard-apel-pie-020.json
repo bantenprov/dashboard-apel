@@ -3,20 +3,16 @@
     "xAxis": {
       "type": "category",
       "region": "Provinsi",
-      "name": "Banten",
-      "yyyy": "2017",
-      "mm": "11",
-      "dd": "17",
-      "index": "apel-2017-11-17"
+      "name": "Banten"
     },
     "series": [
       {
         "data": [
-          {"name":"Peserta", "value":"2017-10-17"},
-          {"name":"Peserta", "value":"2017-10-17"},
-          {"name":"Peserta", "value":"2017-11-17"},
-          {"name":"Peserta", "value":"2018-12-17"},
-          {"name":"Peserta", "value":"2018-01-17"}
+          {"value":20, "name":"2017-05-17"},
+          {"value":25, "name":"2017-06-17"},
+          {"value":55, "name":"2017-07-17"},
+          {"value":87, "name":"2017-08-17"},
+          {"value":64, "name":"2017-09-17"}
         ]
       }
     ]
@@ -25,55 +21,16 @@
     "xAxis": {
       "type": "category",
       "region": "Provinsi",
-      "name": "Banten",
-      "yyyy": "2017",
-      "mm": "12",
-      "dd": "17",
-      "index": "apel-2017-12-17"
+      "name": "Banten"
     },
     "series": [
       {
         "data": [
-          {"value":5.18,"name":"Wajib hadir"},
-          {"value":4.66,"name":"Peserta"}
-        ]
-      }
-    ]
-  },
-  {
-    "xAxis": {
-      "type": "category",
-      "region": "Provinsi",
-      "name": "Banten",
-      "yyyy": "2018",
-      "mm": "01",
-      "dd": "17",
-      "index": "apel-2018-01-17"
-    },
-    "series": [
-      {
-        "data": [
-          {"value":5.18,"name":"Wajib hadir"},
-          {"value":4.66,"name":"Peserta"}
-        ]
-      }
-    ]
-  },
-  {
-    "xAxis": {
-      "type": "category",
-      "region": "Provinsi",
-      "name": "Banten",
-      "yyyy": "2018",
-      "mm": "02",
-      "dd": "17",
-      "index": "apel-2018-02-17"
-    },
-    "series": [
-      {
-        "data": [
-          {"value":5.18,"name":"Wajib hadir"},
-          {"value":4.66,"name":"Peserta"}
+          {"value":40, "name":"2017-10-17"},
+          {"value":45, "name":"2017-10-17"},
+          {"value":45, "name":"2017-11-17"},
+          {"value":90, "name":"2018-12-17"},
+          {"value":24, "name":"2018-01-17"}
         ]
       }
     ]
