@@ -55,14 +55,14 @@ class DashboardApelController extends Controller
     public function show($id)
     {
 
-        $dashboard_apel = $this->dashboard-apel->find($id);
+        $dashboard_apel = $this->dashboard_apel->find($id);
 
         return response()->json([
-            'negara'    => $dashboard-apel->negara,
-            'province'  => $dashboard-apel->getProvince->name,
-            'regencies' => $dashboard-apel->getRegency->name,
-            'tahun'     => $dashboard-apel->tahun,
-            'data'      => $dashboard-apel->data
+            'negara'    => $dashboard_apel->negara,
+            'province'  => $dashboard_apel->getProvince->name,
+            'regencies' => $dashboard_apel->getRegency->name,
+            'tahun'     => $dashboard_apel->tahun,
+            'data'      => $dashboard_apel->data
         ]);
     }
 
@@ -88,7 +88,7 @@ class DashboardApelController extends Controller
             ]);
         }
 
-        $check = $this->dashboard-apel->where('regency_id',$request->regency_id)->where('tahun',$request->tahun)->count();
+        $check = $this->dashboard_apel->where('regency_id',$request->regency_id)->where('tahun',$request->tahun)->count();
 
         if($check > 0)
         {
@@ -99,7 +99,7 @@ class DashboardApelController extends Controller
             ]);
 
         }else{
-            $data = $this->dashboard-apel->create($request->all());
+            $data = $this->dashboard_apel->create($request->all());
 
             return response()->json([
                     'type'      => 'success',
