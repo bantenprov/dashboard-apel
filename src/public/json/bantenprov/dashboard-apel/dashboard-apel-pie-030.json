@@ -1,7 +1,7 @@
 [
   {
     "xAxis": {
-      "category": "Persentase Rasio Ketersediaan Sekolah SMP-MTs",
+      "category": "Dashboard Apel",
       "type": "category",
       "region": "Provinsi",
       "name": "Banten"
@@ -20,7 +20,7 @@
   },
   {
     "xAxis": {
-      "category": "Persentase Rasio Ketersediaan Sekolah SMP-MTs",
+      "category": "Dashboard Apel",
       "type": "category",
       "region": "Negara",
       "name": "Indonesia"
