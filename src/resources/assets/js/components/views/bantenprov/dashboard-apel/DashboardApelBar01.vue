@@ -32,7 +32,7 @@ export default {
           }
         },
         legend: {
-          data: ['Wajib hadir', 'Peserta']
+          data: ['Wajib Hadir', 'Peserta']
         },
         grid: {
           left: '3%',
@@ -50,7 +50,7 @@ export default {
         },
         series: [
         {
-          name: 'Wajib hadir',
+          name: 'Wajib Hadir',
           type: 'bar',
           data: []
         },
@@ -83,7 +83,7 @@ export default {
 
       let ke = 0;
 
-      var res = response.data;
+      var res = response.data[1];
 
       /*this.bar.xAxis.data = Object.values(res[0].xAxis.data);
       this.bar.series[0].data = res[0].series[0].data;

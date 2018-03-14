@@ -113,7 +113,7 @@ export default {
 
       let ke = 0;
 
-      var res = response.data;
+      var res = response.data[1];
 
       this.pie.series[0].data = res[0].series[0].data;
       this.pie.title.text = res[0].xAxis.region + ' ' + res[0].xAxis.name + ' ' + res[0].xAxis.yyyy;
