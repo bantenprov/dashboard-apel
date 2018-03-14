@@ -3,8 +3,8 @@
     "xAxis": {
       "category": "Apel Rutin",
       "model": "Jumlah",
-      "region": "Provinsi",
-      "name": "Banten",
+      "region": "",
+      "name": "",
       "data": [
         "2017-10-17",
         "2017-11-17",
@@ -27,8 +27,8 @@
     "xAxis": {
       "category": "Apel Rutin",
       "model": "Indeks Persentase",
-      "region": "Provinsi",
-      "name": "Banten",
+      "region": "",
+      "name": "",
       "data": [
         "2017-10-17",
         "2017-11-17",

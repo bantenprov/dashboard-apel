@@ -1,9 +1,9 @@
 [
   {
     "xAxis": {
-      "category": "Persentase Rasio Ketersediaan Sekolah SMP-MTs",
-      "region": "Provinsi",
-      "name": "Banten",
+      "category": "Apel Rutin",
+      "region": "",
+      "name": "",
       "data": [
         "2012",
         "2013",
@@ -26,9 +26,9 @@
   },
   {
     "xAxis": {
-      "category": "Persentase Rasio Ketersediaan Sekolah SMP-MTs",
-      "region": "Negara",
-      "name": "Indonesia",
+      "category": "Apel Rutin",
+      "region": "",
+      "name": "",
       "data": [
         "2012",
         "2013",
