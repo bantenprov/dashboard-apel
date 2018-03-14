@@ -25,7 +25,7 @@
         <div class="card h-100" style="color: #fff; background-color: #009688;">
           <div class="card-header">
             <i class="fa fa-bar-chart" aria-hidden="true"></i>
-            Rasio Ketersediaan Sekolah SMP-MTs Berdasarkan Wilayah
+            Dashboard Apel
           </div>
           <div class="card-body">
             <dashboard-apel-bar-01></dashboard-apel-bar-01>
@@ -36,7 +36,7 @@
         <div class="card h-100" style="color: #fff; background-color: #FF9800;">
           <div class="card-header">
             <i class="fa fa-pie-chart" aria-hidden="true"></i>
-            Rasio Ketersediaan Sekolah SMP-MTs Berdasarkan Wilayah
+            Dashboard Apel
           </div>
           <div class="card-body">
             <dashboard-apel-pie-01></dashboard-apel-pie-01>
@@ -52,7 +52,7 @@
         <div class="card h-100" style="color: #fff; background-color: #F44336;">
           <div class="card-header">
             <i class="fa fa-pie-chart" aria-hidden="true"></i>
-            Rasio Ketersediaan Sekolah SMP-MTs Berdasarkan Kategori
+            Dashboard Apel
           </div>
           <div class="card-body">
             <dashboard-apel-pie-02></dashboard-apel-pie-02>
@@ -63,7 +63,7 @@
         <div class="card text-white bg-dark h-100">
           <div class="card-header">
             <i class="fa fa-bar-chart" aria-hidden="true"></i>
-            Rasio Ketersediaan Sekolah SMP-MTs Berdasarkan Kategori
+            Dashboard Apel
           </div>
           <div class="card-body">
             <dashboard-apel-bar-02></dashboard-apel-bar-02>
