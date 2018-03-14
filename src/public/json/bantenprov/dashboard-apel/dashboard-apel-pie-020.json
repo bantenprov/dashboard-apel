@@ -2,8 +2,9 @@
   {
     "xAxis": {
       "type": "category",
-      "region": "Provinsi",
-      "name": "Banten"
+      "category": "Apel Rutin",
+      "region": "",
+      "name": ""
     },
     "series": [
       {
@@ -20,8 +21,9 @@
   {
     "xAxis": {
       "type": "category",
-      "region": "Provinsi",
-      "name": "Banten"
+      "category": "Apel Rutin",
+      "region": "",
+      "name": ""
     },
     "series": [
       {

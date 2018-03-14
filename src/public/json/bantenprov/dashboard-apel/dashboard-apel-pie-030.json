@@ -1,10 +1,10 @@
 [
   {
     "xAxis": {
-      "category": "Dashboard Apel",
+      "category": "Apel Rutin",
       "type": "category",
-      "region": "Provinsi",
-      "name": "Banten"
+      "region": "",
+      "name": ""
     },
     "series": [
       {
@@ -20,10 +20,10 @@
   },
   {
     "xAxis": {
-      "category": "Dashboard Apel",
+      "category": "Apel Rutin",
       "type": "category",
-      "region": "Negara",
-      "name": "Indonesia"
+      "region": "",
+      "name": ""
     },
     "series": [
       {
